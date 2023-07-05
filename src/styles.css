@@ -16,6 +16,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #F55A5A;
+    margin-bottom: 43px;
 }
 
 .icon {
@@ -24,8 +25,87 @@ body {
     margin-right: 5px;
 }
 
-.title {
+.title-head {
     font-size: 14.46px;
     font-weight: 500;
     color: #FFFFFF;
+}
+
+/* SPOTS */
+
+/* blocks */
+
+.container {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.image-block {
+    display: inline-block;
+}
+
+.right-block {
+    display: inline-block;
+    margin-left: 43px;
+}
+
+
+/* image block */
+
+.image {
+    width: 125px;
+    height: 168px;
+    margin-left: 43px;
+}
+
+/* location-block */
+
+.icon {
+    display: inline;
+    width: 7px;
+    height: 9.55px;
+    color: #F55A5A;
+}
+
+.country {
+    display: inline;
+    font-size: 10.24px;
+    font-weight: 400;
+    margin-right: 12px;
+    color: #2B283A;
+}
+
+.gmaps {
+    display: inline;
+    font-size: 10.24px;
+    font-weight: 400;
+    color: #918E9B;
+}
+
+/* title block */
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #2B283A;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* dates block */
+
+.startDate, .endDate {
+    display: inline;
+    font-size: 10.24px;
+    font-weight: 700;
+    color: #2B283A;
+}
+
+/* description block */
+
+.description {
+    
+    font-size: 10.24px;
+    font-weight: 400;
+    max-width: 326px;
 }

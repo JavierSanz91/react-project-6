@@ -5,7 +5,7 @@ export default function Navbar(){
     return (
         <div className="header">
             <img className="icon" src={world} />
-            <h1 className="title">my travel journal.</h1>
+            <h1 className="title-head">my travel journal.</h1>
         </div>
     )
 }
